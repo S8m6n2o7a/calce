@@ -11,6 +11,13 @@ def multiply(n1, n2):
   return n1 * n2
 
 #Divide
-def divide(n1, n2):
+def divid(n1, n2):
   return n1 / n2
+
+math = {
+  "+": add,
+  "-": subtract,
+  "*": multiply,
+  "/": divid,
+}
 
